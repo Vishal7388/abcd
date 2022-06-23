@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
- <h1 style="background-color:red;">hello world</h1>
- <h2 style="background-color:aqua">hello world</h2>
- <h3>hello world</h3>
-</head>
-<body>
-  
+<body bgcolor="powderblue">
+<form>
+    <h1 style="text-align: center;color:black;background-color:whitesmoke;">Student registration form</h1>
+    <hr color="black">
+<label style="font-size: 30px;"> Firstname :</label>         
+<input type="text" name="firstname " font-size:20; size="15"/> <br> <br>    
+<label style="font-size: 30px;"> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>
+<label style="font-size: 30px;">sex : </label>
+<input type="radio" name="sex" value="male"> Male <input type="radio" name="sex" value="female"> Female <br> <br>
+<label style="font-size: 30px;">DOB :</label>
+<input type="date" name="DOB" size="30"  /><br><br>
+<label style="font-size:30px;">Email id :</label>
+<input type="text" name="Email " size="50"/> <br> <br>
+<label style="font-size: 30px;">Password :</label>
+<input type="password" name="password" size="20"/><br><br>
+<label style="font-size: 30px;">Phone number :</label>
+<input type="text" id="phone number" placeholder="+91" size="15" min="10" max="10" pattern="[6789][0-9]{9}"/><br><br>
+<hr>
+<div style="text-align: center;">
+<button style="font-size: 20px;" type="submit" >Submit</button>
+</div>
+</form> 
 </body>
+</head>
 </html>
