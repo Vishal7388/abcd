@@ -4,7 +4,7 @@ time.sleep(2)
 #generate a random number
 x = random.randint(1, 10)
 print("The number is generated!!!")
-time.sleep(1)
+time.sleep(2)
 print("You have 4 chances to guess")
 #initialize the counter
 count = 4
